@@ -1,0 +1,98 @@
+body {
+background: url("./img/janebg.jpg");
+background-repeat: no-repeat;
+display: inline-block;
+width:1700px;
+height:100%;
+font-family: 'Source Sans Pro', sans-serif;
+animation: 40s slide infinite;
+}
+
+@keyframes slide
+{
+    25%{background: url('./img/img5.jpg');background-size: cover;}
+    55%{background: url('./img/img4.jpg');background-size: cover;}
+    55%{background: url('./img/img3.jpg');background-size: cover;}
+}
+
+section {
+    
+    background:lightgrey;
+   width:300px;
+padding:40px;
+margin:50px auto;
+text-align: center;
+border-radius: 2%;
+margin-right: 710px;
+
+}
+
+section img{
+  width:130px;
+  height:130px;
+  border:1px solid gray;
+  padding: 2px;
+  border-radius: 100%;
+}
+section h1{
+    font-size: 25px;
+    color:#414f57;
+    font-weight: lighter;
+    letter-spacing: 3px;
+   
+}
+section p{
+    font-size: 15px;
+    color:#414f57;
+    font-weight: lighter;
+    letter-spacing: 2px;
+   
+}
+section ul{
+    list-style: none;
+  
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+section ul li{
+    
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    border:1px solid black;
+    padding:10px;
+    margin:5px;
+    border-radius: 100%;
+   
+}
+section header img {
+    height: 130px;
+}
+section footer img{
+    width:30px;
+    height: 30px;
+}
+.fa {
+   
+ font-size: 30px;
+}
+
+.fa-twitter {
+    color:#00acee;
+}
+.fa-instagram {
+background: radial-gradient(circle at 30% 107%,
+#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+-webkit-background-clip: text; 
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.fa-facebook {
+    color:#3b5998;
+}
+section header img:hover {
+    transform: rotate(360deg);
+    transition: ease-in-out all 9s;
+    filter: grayscale(0);
+}
